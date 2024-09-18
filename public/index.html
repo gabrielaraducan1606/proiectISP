@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 class="title">Weather App</h1>
+    <div class="date-container">
+        <select id="city-selector">
+            <option value="">Select a city</option>
+            <option value="London">London</option>
+            <option value="New York">New York</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Paris">Paris</option>
+        </select>
+        
+        <span class="day">--</span> <sup>th</sup>
+        <span class="weekday">--</span> 
+        <span class="month">--</span>
+        <div class="verticalLine"></div>
+        
+        <div class="time-container">
+            <span class="time">--:--:--</span>
+        </div>
+        
+        <div class="temperature-container">
+            <span class="temperature">-- °C</span>
+        </div>
+        
+        <div class="sun-container">
+            <span class="sunrise">Sunrise: --:--</span>
+            <div class="verticalLine1"></div>
+            <span class="sunset">Sunset: --:--</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
